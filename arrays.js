@@ -5,6 +5,7 @@ function addElementToBeginningOfArray(array, element) {
 }
 
 function destructivelyAddElementToBeginningOfArray (array, element) {
+<<<<<<< HEAD
 //replaces first element  
 //  array[0] = element
 //  return array
@@ -46,3 +47,11 @@ function removeElementFromEndOfArray(array) {
   var pArray = array.slice (0, array.length -1)
   return pArray
 }
+=======
+//  array[0] = element
+//  return array
+  return array.unshift(element)
+}
+
+function 
+>>>>>>> 3ec05b45b66e41c6e3dad0865e75829ad9faddf6
